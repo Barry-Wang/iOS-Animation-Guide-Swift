@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA152AFE1BFDA28E00ECF59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA152AFD1BFDA28E00ECF59F /* AppDelegate.swift */; };
+		DA152B001BFDA28E00ECF59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA152AFF1BFDA28E00ECF59F /* ViewController.swift */; };
+		DA152B031BFDA28E00ECF59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA152B011BFDA28E00ECF59F /* Main.storyboard */; };
+		DA152B051BFDA28E00ECF59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA152B041BFDA28E00ECF59F /* Assets.xcassets */; };
+		DA152B081BFDA28E00ECF59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA152B061BFDA28E00ECF59F /* LaunchScreen.storyboard */; };
+		DA152B131BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA152B121BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuTests.swift */; };
+		DA152B1E1BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA152B1D1BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuUITests.swift */; };
+		DA152B2C1BFDA2C300ECF59F /* YMGooeySlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA152B2B1BFDA2C300ECF59F /* YMGooeySlideMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA152B0F1BFDA28E00ECF59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA152AF21BFDA28D00ECF59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA152AF91BFDA28E00ECF59F;
+			remoteInfo = "Animation-Guide2-GooeySlideMenu";
+		};
+		DA152B1A1BFDA28E00ECF59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA152AF21BFDA28D00ECF59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA152AF91BFDA28E00ECF59F;
+			remoteInfo = "Animation-Guide2-GooeySlideMenu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA152AFA1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-Guide2-GooeySlideMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA152AFD1BFDA28E00ECF59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA152AFF1BFDA28E00ECF59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA152B021BFDA28E00ECF59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA152B041BFDA28E00ECF59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA152B071BFDA28E00ECF59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA152B091BFDA28E00ECF59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA152B0E1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-Guide2-GooeySlideMenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA152B121BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Guide2_GooeySlideMenuTests.swift; sourceTree = "<group>"; };
+		DA152B141BFDA28E00ECF59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA152B191BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-Guide2-GooeySlideMenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA152B1D1BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Guide2_GooeySlideMenuUITests.swift; sourceTree = "<group>"; };
+		DA152B1F1BFDA28E00ECF59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA152B2B1BFDA2C300ECF59F /* YMGooeySlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMGooeySlideMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA152AF71BFDA28E00ECF59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152B0B1BFDA28E00ECF59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152B161BFDA28E00ECF59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA152AF11BFDA28D00ECF59F = {
+			isa = PBXGroup;
+			children = (
+				DA152AFC1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu */,
+				DA152B111BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests */,
+				DA152B1C1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests */,
+				DA152AFB1BFDA28E00ECF59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA152AFB1BFDA28E00ECF59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA152AFA1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu.app */,
+				DA152B0E1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests.xctest */,
+				DA152B191BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA152AFC1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DA152AFD1BFDA28E00ECF59F /* AppDelegate.swift */,
+				DA152AFF1BFDA28E00ECF59F /* ViewController.swift */,
+				DA152B011BFDA28E00ECF59F /* Main.storyboard */,
+				DA152B041BFDA28E00ECF59F /* Assets.xcassets */,
+				DA152B061BFDA28E00ECF59F /* LaunchScreen.storyboard */,
+				DA152B091BFDA28E00ECF59F /* Info.plist */,
+				DA152B2B1BFDA2C300ECF59F /* YMGooeySlideMenu.swift */,
+			);
+			path = "Animation-Guide2-GooeySlideMenu";
+			sourceTree = "<group>";
+		};
+		DA152B111BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA152B121BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuTests.swift */,
+				DA152B141BFDA28E00ECF59F /* Info.plist */,
+			);
+			path = "Animation-Guide2-GooeySlideMenuTests";
+			sourceTree = "<group>";
+		};
+		DA152B1C1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA152B1D1BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuUITests.swift */,
+				DA152B1F1BFDA28E00ECF59F /* Info.plist */,
+			);
+			path = "Animation-Guide2-GooeySlideMenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA152AF91BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA152B221BFDA28E00ECF59F /* Build configuration list for PBXNativeTarget "Animation-Guide2-GooeySlideMenu" */;
+			buildPhases = (
+				DA152AF61BFDA28E00ECF59F /* Sources */,
+				DA152AF71BFDA28E00ECF59F /* Frameworks */,
+				DA152AF81BFDA28E00ECF59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animation-Guide2-GooeySlideMenu";
+			productName = "Animation-Guide2-GooeySlideMenu";
+			productReference = DA152AFA1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA152B0D1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA152B251BFDA28E00ECF59F /* Build configuration list for PBXNativeTarget "Animation-Guide2-GooeySlideMenuTests" */;
+			buildPhases = (
+				DA152B0A1BFDA28E00ECF59F /* Sources */,
+				DA152B0B1BFDA28E00ECF59F /* Frameworks */,
+				DA152B0C1BFDA28E00ECF59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA152B101BFDA28E00ECF59F /* PBXTargetDependency */,
+			);
+			name = "Animation-Guide2-GooeySlideMenuTests";
+			productName = "Animation-Guide2-GooeySlideMenuTests";
+			productReference = DA152B0E1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA152B181BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA152B281BFDA28E00ECF59F /* Build configuration list for PBXNativeTarget "Animation-Guide2-GooeySlideMenuUITests" */;
+			buildPhases = (
+				DA152B151BFDA28E00ECF59F /* Sources */,
+				DA152B161BFDA28E00ECF59F /* Frameworks */,
+				DA152B171BFDA28E00ECF59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA152B1B1BFDA28E00ECF59F /* PBXTargetDependency */,
+			);
+			name = "Animation-Guide2-GooeySlideMenuUITests";
+			productName = "Animation-Guide2-GooeySlideMenuUITests";
+			productReference = DA152B191BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA152AF21BFDA28D00ECF59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = barry;
+				TargetAttributes = {
+					DA152AF91BFDA28E00ECF59F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DA152B0D1BFDA28E00ECF59F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA152AF91BFDA28E00ECF59F;
+					};
+					DA152B181BFDA28E00ECF59F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA152AF91BFDA28E00ECF59F;
+					};
+				};
+			};
+			buildConfigurationList = DA152AF51BFDA28D00ECF59F /* Build configuration list for PBXProject "Animation-Guide2-GooeySlideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA152AF11BFDA28D00ECF59F;
+			productRefGroup = DA152AFB1BFDA28E00ECF59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA152AF91BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu */,
+				DA152B0D1BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuTests */,
+				DA152B181BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA152AF81BFDA28E00ECF59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA152B081BFDA28E00ECF59F /* LaunchScreen.storyboard in Resources */,
+				DA152B051BFDA28E00ECF59F /* Assets.xcassets in Resources */,
+				DA152B031BFDA28E00ECF59F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152B0C1BFDA28E00ECF59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152B171BFDA28E00ECF59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA152AF61BFDA28E00ECF59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA152B001BFDA28E00ECF59F /* ViewController.swift in Sources */,
+				DA152AFE1BFDA28E00ECF59F /* AppDelegate.swift in Sources */,
+				DA152B2C1BFDA2C300ECF59F /* YMGooeySlideMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152B0A1BFDA28E00ECF59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA152B131BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152B151BFDA28E00ECF59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA152B1E1BFDA28E00ECF59F /* Animation_Guide2_GooeySlideMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA152B101BFDA28E00ECF59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA152AF91BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu */;
+			targetProxy = DA152B0F1BFDA28E00ECF59F /* PBXContainerItemProxy */;
+		};
+		DA152B1B1BFDA28E00ECF59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA152AF91BFDA28E00ECF59F /* Animation-Guide2-GooeySlideMenu */;
+			targetProxy = DA152B1A1BFDA28E00ECF59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA152B011BFDA28E00ECF59F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA152B021BFDA28E00ECF59F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA152B061BFDA28E00ECF59F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA152B071BFDA28E00ECF59F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA152B201BFDA28E00ECF59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA152B211BFDA28E00ECF59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA152B231BFDA28E00ECF59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animation-Guide2-GooeySlideMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barry.Animation-Guide2-GooeySlideMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA152B241BFDA28E00ECF59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animation-Guide2-GooeySlideMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barry.Animation-Guide2-GooeySlideMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA152B261BFDA28E00ECF59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animation-Guide2-GooeySlideMenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barry.Animation-Guide2-GooeySlideMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animation-Guide2-GooeySlideMenu.app/Animation-Guide2-GooeySlideMenu";
+			};
+			name = Debug;
+		};
+		DA152B271BFDA28E00ECF59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animation-Guide2-GooeySlideMenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barry.Animation-Guide2-GooeySlideMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animation-Guide2-GooeySlideMenu.app/Animation-Guide2-GooeySlideMenu";
+			};
+			name = Release;
+		};
+		DA152B291BFDA28E00ECF59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animation-Guide2-GooeySlideMenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barry.Animation-Guide2-GooeySlideMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animation-Guide2-GooeySlideMenu";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA152B2A1BFDA28E00ECF59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animation-Guide2-GooeySlideMenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barry.Animation-Guide2-GooeySlideMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animation-Guide2-GooeySlideMenu";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA152AF51BFDA28D00ECF59F /* Build configuration list for PBXProject "Animation-Guide2-GooeySlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA152B201BFDA28E00ECF59F /* Debug */,
+				DA152B211BFDA28E00ECF59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA152B221BFDA28E00ECF59F /* Build configuration list for PBXNativeTarget "Animation-Guide2-GooeySlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA152B231BFDA28E00ECF59F /* Debug */,
+				DA152B241BFDA28E00ECF59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA152B251BFDA28E00ECF59F /* Build configuration list for PBXNativeTarget "Animation-Guide2-GooeySlideMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA152B261BFDA28E00ECF59F /* Debug */,
+				DA152B271BFDA28E00ECF59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA152B281BFDA28E00ECF59F /* Build configuration list for PBXNativeTarget "Animation-Guide2-GooeySlideMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA152B291BFDA28E00ECF59F /* Debug */,
+				DA152B2A1BFDA28E00ECF59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA152AF21BFDA28D00ECF59F /* Project object */;
+}
