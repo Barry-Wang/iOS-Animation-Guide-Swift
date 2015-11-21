@@ -13,12 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
-        let a = YMCirCleButton(frame: CGRectMake(100, 30 , 100, 100))
-        self.view.addSubview(a)
-        
-        let popMenu =  YMPopMenu(frame: CGRectMake(50,100,200,200))
+    
+        let popMenu =  YMPopMenu(frame: CGRectMake(50, 100, 200, 200), count: 8)
         self.view.addSubview(popMenu)
         
     }

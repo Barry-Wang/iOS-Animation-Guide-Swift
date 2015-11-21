@@ -13,27 +13,35 @@ class YMPopMenu: UIView {
     var innderDiameter:CGFloat = 0
     var boudsCenterX:CGFloat = 0
     var boudsCenterY:CGFloat = 0
-    var buttonArray:[YMCirCleButton]?
+    var buttonArray:[YMCirCleButton] = [YMCirCleButton]()
+    var centerButton = YMCirCleButton(frame: CGRectMake(0,0,0,0))
+    var avergeRadius = 0
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.redColor()
-        self.innderDiameter = self.frame.size.width / 2 - 40
+        self.innderDiameter = self.frame.size.width / 2 - 30
         self.boudsCenterX = self.frame.size.width / 2
         self.boudsCenterY = self.frame.size.height / 2
+    }
+    
+    
+    convenience init(frame:CGRect, count:NSInteger) {
         
+        self.init(frame: frame)
+        self.avergeRadius = 360 / count
+        self.centerButton.frame = CGRectMake(0, 0, self.boudsCenterX, self.boudsCenterX)
+        self.centerButton.center = CGPointMake(self.boudsCenterX, self.boudsCenterY)
+        self.centerButton.addEvent { () -> Void in
+            print("come here")
+            self.showMenu()
+        }
+        self.addSubview(centerButton)
         
-        print("self.center = \(self.center)")
-
-//        
-        for var i = 0; i < 8; i++ {
-            let centerPoint:(x:CGFloat, y:CGFloat) = self.getCirclePoint(CGFloat(i * 45))
-            print("centerPoint = \(i * 45 ) = \(centerPoint)")
-            let button = YMCirCleButton(frame: CGRectMake(centerPoint.x - 20, centerPoint.y - 20, 40, 40))
-            buttonArray?.append(button)
+        for var i = 0; i < count; i++ {
+            let button = YMCirCleButton(frame: CGRectMake(self.boudsCenterX - 15, self.boudsCenterY - 15, 0,    0))
+            self.buttonArray.append(button)
             self.addSubview(button)
         }
-
-
         
     }
     
@@ -55,6 +63,29 @@ class YMPopMenu: UIView {
         }
     
     }
+    
+    func showMenu () {
+        
+        UIView.animateWithDuration(1.0, delay: 0.0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.6, options: [UIViewAnimationOptions.AllowUserInteraction, UIViewAnimationOptions.BeginFromCurrentState], animations: { () -> Void in
+            
+            for var i = 0; i < self.buttonArray.count; i++ {
+                let button = self.buttonArray[i]
+                let centerPoint:(x:CGFloat, y:CGFloat) = self.getCirclePoint(CGFloat(self.avergeRadius * i))
+                button.frame = CGRectMake(centerPoint.x - 15, centerPoint.y - 15, 30, 30)
+                button.setNeedsDisplay()
+                print("buttonFrame = \(button.frame)")
+            }
+            
+            self.centerButton.alpha = 0.0
+            
+            }) { (sucess:Bool) -> Void in
+                
+        }
+
+        
+        
+    }
+    
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
