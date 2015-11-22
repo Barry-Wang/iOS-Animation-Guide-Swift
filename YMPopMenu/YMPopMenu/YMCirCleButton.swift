@@ -57,9 +57,8 @@ class YMCirCleButton: UIView {
         let ctx = UIGraphicsGetCurrentContext()
         let path = UIBezierPath(ovalInRect: self.bounds)
         CGContextSetFillColorWithColor(ctx, UIColor.greenColor().CGColor)
-        CGContextSetStrokeColorWithColor(ctx, UIColor.purpleColor().CGColor)
         CGContextAddPath(ctx, path.CGPath)
-        CGContextDrawPath(ctx, CGPathDrawingMode.EOFillStroke)
+        CGContextDrawPath(ctx, CGPathDrawingMode.Fill)
     }
 
 }

@@ -18,7 +18,7 @@ class YMPopMenu: UIView {
     var avergeRadius = 0
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.redColor()
+        self.backgroundColor = UIColor.clearColor()
         self.innderDiameter = self.frame.size.width / 2 - 30
         self.boudsCenterX = self.frame.size.width / 2
         self.boudsCenterY = self.frame.size.height / 2
@@ -73,17 +73,35 @@ class YMPopMenu: UIView {
                 let centerPoint:(x:CGFloat, y:CGFloat) = self.getCirclePoint(CGFloat(self.avergeRadius * i))
                 button.frame = CGRectMake(centerPoint.x - 15, centerPoint.y - 15, 30, 30)
                 button.setNeedsDisplay()
-                print("buttonFrame = \(button.frame)")
             }
-            
+            self.transform = CGAffineTransformMakeRotation(-360)
             self.centerButton.alpha = 0.0
             
             }) { (sucess:Bool) -> Void in
                 
         }
+        
+    }
+    
+    func disappearMenu() {
+        UIView.animateWithDuration(1.0, delay: 0.0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.6, options: [UIViewAnimationOptions.AllowUserInteraction, UIViewAnimationOptions.BeginFromCurrentState], animations: { () -> Void in
+            
+            for var i = 0; i < self.buttonArray.count; i++ {
+                let button = self.buttonArray[i]
+                button.frame = CGRectMake(self.boudsCenterX - 15, self.boudsCenterY - 15, 30,    30)
+                button.setNeedsDisplay()
+            }
+            self.centerButton.alpha = 1.0
+            self.transform = CGAffineTransformMakeRotation(360)
 
+            }) { (sucess:Bool) -> Void in
+                for button in self.buttonArray {
+                    button.frame = CGRectMake(self.boudsCenterX - 15, self.boudsCenterY - 15, 0,    0)
+                }
+
+        }
         
-        
+    
     }
     
 

@@ -17,6 +17,11 @@ class ViewController: UIViewController {
         let popMenu =  YMPopMenu(frame: CGRectMake(50, 100, 200, 200), count: 8)
         self.view.addSubview(popMenu)
         
+        let button:YMCirCleButton = popMenu.buttonArray[0]
+        button.addEvent { () -> Void in
+            popMenu.disappearMenu()
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
