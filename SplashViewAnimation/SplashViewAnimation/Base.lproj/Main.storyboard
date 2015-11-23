@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ahs-ij-Nzd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SplashViewAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaoxin" translatesAutoresizingMaskIntoConstraints="NO" id="qhz-Sf-tTu">
+                                <rect key="frame" x="-6" y="64" width="606" height="536"/>
+                                <animations/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NU8-kd-n5U">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.90588235289999997" green="0.91764705879999997" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qhz-Sf-tTu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BUN-6v-6yf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qhz-Sf-tTu" secondAttribute="trailing" constant="-20" id="UBH-JE-aRo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NU8-kd-n5U" secondAttribute="bottom" id="VDl-W6-DML"/>
+                            <constraint firstItem="qhz-Sf-tTu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dpZ-fo-5dR"/>
+                            <constraint firstItem="NU8-kd-n5U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="k8n-g2-6y1"/>
+                            <constraint firstItem="qhz-Sf-tTu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-26" id="tiB-9u-qCa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qhz-Sf-tTu" secondAttribute="bottom" id="vQ4-NA-8RH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NU8-kd-n5U" secondAttribute="trailing" constant="-20" id="vRK-LV-Lc7"/>
+                            <constraint firstItem="NU8-kd-n5U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="z4K-d9-Tt9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zHd-NC-avf"/>
+                    <connections>
+                        <outlet property="maskWhiteView" destination="NU8-kd-n5U" id="Lch-Yb-9pL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269" y="391"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0dF-R3-Vob">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ahs-ij-Nzd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="94t-pr-Suw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fFz-MQ-emz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eZY-X5-Ezd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="1051"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="xiaoxin" width="250" height="303"/>
+    </resources>
+</document>
