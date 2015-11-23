@@ -9,3 +9,7 @@
 
 # 3. YMpopMenu(一个圆形弹出动画，可做菜单按钮)
 ![image](https://github.com/Barry-Wang/iOS-Animation-Guide-Swift/blob/master/images/popMenu.gif)
+
+# 4 SplashViewAnimation (模仿twitter 启动效果)
+![image](https://github.com/Barry-Wang/iOS-Animation-Guide-Swift/blob/master/images/Twitter.gif)
+
