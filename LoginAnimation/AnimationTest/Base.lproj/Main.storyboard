@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qez-9R-znb">
+                                <rect key="frame" x="37" y="53" width="56" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MuX-cS-V7A"/>
+                                    <constraint firstAttribute="width" constant="56" id="gc1-Iw-Vje"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密   码:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPw-5a-Gu7">
+                                <rect key="frame" x="37" y="95" width="52" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="JQb-ah-ssZ"/>
+                                    <constraint firstAttribute="width" constant="52" id="rpR-XG-l4q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ERa-dB-QTB">
+                                <rect key="frame" x="120" y="50" width="425" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="KeV-eL-Fo3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KeV-eL-Fo3"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8rr-uA-7Mp">
+                                <rect key="frame" x="120" y="95" width="425" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="vUp-dt-p8V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="vUp-dt-p8V"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quy-fY-lpb">
+                                <rect key="frame" x="228" y="174" width="145" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.20656561209999999" green="0.96470588239999999" blue="0.2744605369" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5hy-Yc-DL5"/>
+                                    <constraint firstAttribute="width" constant="145" id="9pl-ro-iw7"/>
+                                </constraints>
+                                <state key="normal" title="login">
+                                    <color key="titleColor" red="1" green="0.1309205584" blue="0.049916752779999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P7o-X9-zqs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ERa-dB-QTB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ESR-ej-8Ig"/>
+                            <constraint firstItem="8rr-uA-7Mp" firstAttribute="top" secondItem="ERa-dB-QTB" secondAttribute="bottom" constant="15" id="Ewz-X4-FeY"/>
+                            <constraint firstItem="Qez-9R-znb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="FfQ-Zk-Zaa"/>
+                            <constraint firstItem="UPw-5a-Gu7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="HJj-d4-Kr7"/>
+                            <constraint firstItem="quy-fY-lpb" firstAttribute="top" secondItem="8rr-uA-7Mp" secondAttribute="bottom" constant="49" id="JmZ-ji-oAs"/>
+                            <constraint firstItem="UPw-5a-Gu7" firstAttribute="top" secondItem="Qez-9R-znb" secondAttribute="bottom" constant="21" id="KxG-1t-IJ8"/>
+                            <constraint firstItem="8rr-uA-7Mp" firstAttribute="leading" secondItem="UPw-5a-Gu7" secondAttribute="trailing" constant="31" id="b0r-Ml-djJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8rr-uA-7Mp" secondAttribute="trailing" constant="35" id="j4t-oX-in8"/>
+                            <constraint firstItem="quy-fY-lpb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="krt-bn-ERl"/>
+                            <constraint firstItem="Qez-9R-znb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="rlD-NI-avs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ERa-dB-QTB" secondAttribute="trailing" constant="35" id="ryl-Z3-a0j"/>
+                            <constraint firstItem="ERa-dB-QTB" firstAttribute="leading" secondItem="Qez-9R-znb" secondAttribute="trailing" constant="27" id="u1M-Gb-xyL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="8rr-uA-7Mp" id="fhD-nu-gxB"/>
+                        <outlet property="userNameTextField" destination="ERa-dB-QTB" id="1UQ-1f-jkx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="435"/>
+        </scene>
+    </scenes>
+</document>

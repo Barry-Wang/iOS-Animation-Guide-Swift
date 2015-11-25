@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAE8E1FF1C0412FB003F2A15 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8E1FF1C0412FB003F2A15 /* LoginAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE8E2021C0412FB003F2A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE8E2041C0412FB003F2A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAE8E2071C0412FB003F2A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE8E2091C0412FB003F2A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE8E20C1C0412FB003F2A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE8E20E1C0412FB003F2A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAE8E2131C0412FB003F2A15 /* AnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8E2131C0412FB003F2A15 /* LoginAnimation.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAnimation.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE8E2171C0412FB003F2A15 /* AnimationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestTests.swift; sourceTree = "<group>"; };
 		DAE8E2191C0412FB003F2A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAE8E21E1C0412FB003F2A15 /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8E21E1C0412FB003F2A15 /* LoginAnimation.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAnimation.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE8E2221C0412FB003F2A15 /* AnimationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestUITests.swift; sourceTree = "<group>"; };
 		DAE8E2241C0412FB003F2A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		DAE8E2001C0412FB003F2A15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAE8E1FF1C0412FB003F2A15 /* AnimationTest.app */,
-				DAE8E2131C0412FB003F2A15 /* AnimationTestTests.xctest */,
-				DAE8E21E1C0412FB003F2A15 /* AnimationTestUITests.xctest */,
+				DAE8E1FF1C0412FB003F2A15 /* LoginAnimation.app */,
+				DAE8E2131C0412FB003F2A15 /* LoginAnimation.xctest */,
+				DAE8E21E1C0412FB003F2A15 /* LoginAnimation.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAE8E1FE1C0412FB003F2A15 /* AnimationTest */ = {
+		DAE8E1FE1C0412FB003F2A15 /* LoginAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE8E2271C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "AnimationTest" */;
+			buildConfigurationList = DAE8E2271C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "LoginAnimation" */;
 			buildPhases = (
 				DAE8E1FB1C0412FB003F2A15 /* Sources */,
 				DAE8E1FC1C0412FB003F2A15 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = AnimationTest;
+			name = LoginAnimation;
 			productName = AnimationTest;
-			productReference = DAE8E1FF1C0412FB003F2A15 /* AnimationTest.app */;
+			productReference = DAE8E1FF1C0412FB003F2A15 /* LoginAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAE8E2121C0412FB003F2A15 /* AnimationTestTests */ = {
+		DAE8E2121C0412FB003F2A15 /* LoginAnimationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE8E22A1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "AnimationTestTests" */;
+			buildConfigurationList = DAE8E22A1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "LoginAnimationTests" */;
 			buildPhases = (
 				DAE8E20F1C0412FB003F2A15 /* Sources */,
 				DAE8E2101C0412FB003F2A15 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				DAE8E2151C0412FB003F2A15 /* PBXTargetDependency */,
 			);
-			name = AnimationTestTests;
+			name = LoginAnimationTests;
 			productName = AnimationTestTests;
-			productReference = DAE8E2131C0412FB003F2A15 /* AnimationTestTests.xctest */;
+			productReference = DAE8E2131C0412FB003F2A15 /* LoginAnimation.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DAE8E21D1C0412FB003F2A15 /* AnimationTestUITests */ = {
+		DAE8E21D1C0412FB003F2A15 /* LoginAnimationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE8E22D1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "AnimationTestUITests" */;
+			buildConfigurationList = DAE8E22D1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "LoginAnimationUITests" */;
 			buildPhases = (
 				DAE8E21A1C0412FB003F2A15 /* Sources */,
 				DAE8E21B1C0412FB003F2A15 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				DAE8E2201C0412FB003F2A15 /* PBXTargetDependency */,
 			);
-			name = AnimationTestUITests;
+			name = LoginAnimationUITests;
 			productName = AnimationTestUITests;
-			productReference = DAE8E21E1C0412FB003F2A15 /* AnimationTestUITests.xctest */;
+			productReference = DAE8E21E1C0412FB003F2A15 /* LoginAnimation.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAE8E1FA1C0412FB003F2A15 /* Build configuration list for PBXProject "AnimationTest" */;
+			buildConfigurationList = DAE8E1FA1C0412FB003F2A15 /* Build configuration list for PBXProject "LoginAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAE8E1FE1C0412FB003F2A15 /* AnimationTest */,
-				DAE8E2121C0412FB003F2A15 /* AnimationTestTests */,
-				DAE8E21D1C0412FB003F2A15 /* AnimationTestUITests */,
+				DAE8E1FE1C0412FB003F2A15 /* LoginAnimation */,
+				DAE8E2121C0412FB003F2A15 /* LoginAnimationTests */,
+				DAE8E21D1C0412FB003F2A15 /* LoginAnimationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		DAE8E2151C0412FB003F2A15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAE8E1FE1C0412FB003F2A15 /* AnimationTest */;
+			target = DAE8E1FE1C0412FB003F2A15 /* LoginAnimation */;
 			targetProxy = DAE8E2141C0412FB003F2A15 /* PBXContainerItemProxy */;
 		};
 		DAE8E2201C0412FB003F2A15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAE8E1FE1C0412FB003F2A15 /* AnimationTest */;
+			target = DAE8E1FE1C0412FB003F2A15 /* LoginAnimation */;
 			targetProxy = DAE8E21F1C0412FB003F2A15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,9 +400,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barry.AnimationTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LoginAnimation;
 			};
 			name = Debug;
 		};
@@ -411,9 +412,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barry.AnimationTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LoginAnimation;
 			};
 			name = Release;
 		};
@@ -424,8 +426,8 @@
 				INFOPLIST_FILE = AnimationTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barry.AnimationTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationTest.app/AnimationTest";
+				PRODUCT_NAME = LoginAnimation;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginAnimation.app/LoginAnimation";
 			};
 			name = Debug;
 		};
@@ -436,8 +438,8 @@
 				INFOPLIST_FILE = AnimationTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barry.AnimationTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationTest.app/AnimationTest";
+				PRODUCT_NAME = LoginAnimation;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginAnimation.app/LoginAnimation";
 			};
 			name = Release;
 		};
@@ -447,7 +449,7 @@
 				INFOPLIST_FILE = AnimationTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barry.AnimationTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LoginAnimation;
 				TEST_TARGET_NAME = AnimationTest;
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +461,7 @@
 				INFOPLIST_FILE = AnimationTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barry.AnimationTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LoginAnimation;
 				TEST_TARGET_NAME = AnimationTest;
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAE8E1FA1C0412FB003F2A15 /* Build configuration list for PBXProject "AnimationTest" */ = {
+		DAE8E1FA1C0412FB003F2A15 /* Build configuration list for PBXProject "LoginAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE8E2251C0412FB003F2A15 /* Debug */,
@@ -477,29 +479,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE8E2271C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "AnimationTest" */ = {
+		DAE8E2271C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "LoginAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE8E2281C0412FB003F2A15 /* Debug */,
 				DAE8E2291C0412FB003F2A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DAE8E22A1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "AnimationTestTests" */ = {
+		DAE8E22A1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "LoginAnimationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE8E22B1C0412FB003F2A15 /* Debug */,
 				DAE8E22C1C0412FB003F2A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DAE8E22D1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "AnimationTestUITests" */ = {
+		DAE8E22D1C0412FB003F2A15 /* Build configuration list for PBXNativeTarget "LoginAnimationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE8E22E1C0412FB003F2A15 /* Debug */,
 				DAE8E22F1C0412FB003F2A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
