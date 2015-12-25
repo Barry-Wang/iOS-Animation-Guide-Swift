@@ -1,1 +1,0 @@
-../../../wax/lib/extensions/capi/tolua++/tolua++.h

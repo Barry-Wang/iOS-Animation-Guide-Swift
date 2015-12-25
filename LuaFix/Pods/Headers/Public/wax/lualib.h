@@ -1,1 +1,0 @@
-../../../wax/lib/lua/lualib.h

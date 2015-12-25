@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1535201C2CE90600828621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15351F1C2CE90600828621 /* AppDelegate.swift */; };
+		DA1535221C2CE90600828621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1535211C2CE90600828621 /* ViewController.swift */; };
+		DA1535251C2CE90600828621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1535231C2CE90600828621 /* Main.storyboard */; };
+		DA1535271C2CE90600828621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1535261C2CE90600828621 /* Assets.xcassets */; };
+		DA15352A1C2CE90600828621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1535281C2CE90600828621 /* LaunchScreen.storyboard */; };
+		DA1535351C2CE90600828621 /* LikeFBNavScrollAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1535341C2CE90600828621 /* LikeFBNavScrollAnimationTests.swift */; };
+		DA1535401C2CE90600828621 /* LikeFBNavScrollAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15353F1C2CE90600828621 /* LikeFBNavScrollAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1535311C2CE90600828621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1535141C2CE90600828621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA15351B1C2CE90600828621;
+			remoteInfo = LikeFBNavScrollAnimation;
+		};
+		DA15353C1C2CE90600828621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1535141C2CE90600828621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA15351B1C2CE90600828621;
+			remoteInfo = LikeFBNavScrollAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA15351C1C2CE90600828621 /* LikeFBNavScrollAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeFBNavScrollAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15351F1C2CE90600828621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA1535211C2CE90600828621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA1535241C2CE90600828621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA1535261C2CE90600828621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1535291C2CE90600828621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA15352B1C2CE90600828621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1535301C2CE90600828621 /* LikeFBNavScrollAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeFBNavScrollAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1535341C2CE90600828621 /* LikeFBNavScrollAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeFBNavScrollAnimationTests.swift; sourceTree = "<group>"; };
+		DA1535361C2CE90600828621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA15353B1C2CE90600828621 /* LikeFBNavScrollAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeFBNavScrollAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15353F1C2CE90600828621 /* LikeFBNavScrollAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeFBNavScrollAnimationUITests.swift; sourceTree = "<group>"; };
+		DA1535411C2CE90600828621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1535191C2CE90600828621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15352D1C2CE90600828621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1535381C2CE90600828621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1535131C2CE90600828621 = {
+			isa = PBXGroup;
+			children = (
+				DA15351E1C2CE90600828621 /* LikeFBNavScrollAnimation */,
+				DA1535331C2CE90600828621 /* LikeFBNavScrollAnimationTests */,
+				DA15353E1C2CE90600828621 /* LikeFBNavScrollAnimationUITests */,
+				DA15351D1C2CE90600828621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA15351D1C2CE90600828621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA15351C1C2CE90600828621 /* LikeFBNavScrollAnimation.app */,
+				DA1535301C2CE90600828621 /* LikeFBNavScrollAnimationTests.xctest */,
+				DA15353B1C2CE90600828621 /* LikeFBNavScrollAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA15351E1C2CE90600828621 /* LikeFBNavScrollAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DA15351F1C2CE90600828621 /* AppDelegate.swift */,
+				DA1535211C2CE90600828621 /* ViewController.swift */,
+				DA1535231C2CE90600828621 /* Main.storyboard */,
+				DA1535261C2CE90600828621 /* Assets.xcassets */,
+				DA1535281C2CE90600828621 /* LaunchScreen.storyboard */,
+				DA15352B1C2CE90600828621 /* Info.plist */,
+			);
+			path = LikeFBNavScrollAnimation;
+			sourceTree = "<group>";
+		};
+		DA1535331C2CE90600828621 /* LikeFBNavScrollAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1535341C2CE90600828621 /* LikeFBNavScrollAnimationTests.swift */,
+				DA1535361C2CE90600828621 /* Info.plist */,
+			);
+			path = LikeFBNavScrollAnimationTests;
+			sourceTree = "<group>";
+		};
+		DA15353E1C2CE90600828621 /* LikeFBNavScrollAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA15353F1C2CE90600828621 /* LikeFBNavScrollAnimationUITests.swift */,
+				DA1535411C2CE90600828621 /* Info.plist */,
+			);
+			path = LikeFBNavScrollAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA15351B1C2CE90600828621 /* LikeFBNavScrollAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1535441C2CE90600828621 /* Build configuration list for PBXNativeTarget "LikeFBNavScrollAnimation" */;
+			buildPhases = (
+				DA1535181C2CE90600828621 /* Sources */,
+				DA1535191C2CE90600828621 /* Frameworks */,
+				DA15351A1C2CE90600828621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeFBNavScrollAnimation;
+			productName = LikeFBNavScrollAnimation;
+			productReference = DA15351C1C2CE90600828621 /* LikeFBNavScrollAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA15352F1C2CE90600828621 /* LikeFBNavScrollAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1535471C2CE90600828621 /* Build configuration list for PBXNativeTarget "LikeFBNavScrollAnimationTests" */;
+			buildPhases = (
+				DA15352C1C2CE90600828621 /* Sources */,
+				DA15352D1C2CE90600828621 /* Frameworks */,
+				DA15352E1C2CE90600828621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1535321C2CE90600828621 /* PBXTargetDependency */,
+			);
+			name = LikeFBNavScrollAnimationTests;
+			productName = LikeFBNavScrollAnimationTests;
+			productReference = DA1535301C2CE90600828621 /* LikeFBNavScrollAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA15353A1C2CE90600828621 /* LikeFBNavScrollAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15354A1C2CE90600828621 /* Build configuration list for PBXNativeTarget "LikeFBNavScrollAnimationUITests" */;
+			buildPhases = (
+				DA1535371C2CE90600828621 /* Sources */,
+				DA1535381C2CE90600828621 /* Frameworks */,
+				DA1535391C2CE90600828621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA15353D1C2CE90600828621 /* PBXTargetDependency */,
+			);
+			name = LikeFBNavScrollAnimationUITests;
+			productName = LikeFBNavScrollAnimationUITests;
+			productReference = DA15353B1C2CE90600828621 /* LikeFBNavScrollAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1535141C2CE90600828621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = barry;
+				TargetAttributes = {
+					DA15351B1C2CE90600828621 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DA15352F1C2CE90600828621 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DA15351B1C2CE90600828621;
+					};
+					DA15353A1C2CE90600828621 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DA15351B1C2CE90600828621;
+					};
+				};
+			};
+			buildConfigurationList = DA1535171C2CE90600828621 /* Build configuration list for PBXProject "LikeFBNavScrollAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA1535131C2CE90600828621;
+			productRefGroup = DA15351D1C2CE90600828621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA15351B1C2CE90600828621 /* LikeFBNavScrollAnimation */,
+				DA15352F1C2CE90600828621 /* LikeFBNavScrollAnimationTests */,
+				DA15353A1C2CE90600828621 /* LikeFBNavScrollAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA15351A1C2CE90600828621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15352A1C2CE90600828621 /* LaunchScreen.storyboard in Resources */,
+				DA1535271C2CE90600828621 /* Assets.xcassets in Resources */,
+				DA1535251C2CE90600828621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15352E1C2CE90600828621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1535391C2CE90600828621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1535181C2CE90600828621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1535221C2CE90600828621 /* ViewController.swift in Sources */,
+				DA1535201C2CE90600828621 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15352C1C2CE90600828621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1535351C2CE90600828621 /* LikeFBNavScrollAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1535371C2CE90600828621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1535401C2CE90600828621 /* LikeFBNavScrollAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1535321C2CE90600828621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA15351B1C2CE90600828621 /* LikeFBNavScrollAnimation */;
+			targetProxy = DA1535311C2CE90600828621 /* PBXContainerItemProxy */;
+		};
+		DA15353D1C2CE90600828621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA15351B1C2CE90600828621 /* LikeFBNavScrollAnimation */;
+			targetProxy = DA15353C1C2CE90600828621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA1535231C2CE90600828621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1535241C2CE90600828621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1535281C2CE90600828621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1535291C2CE90600828621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1535421C2CE90600828621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA1535431C2CE90600828621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA1535451C2CE90600828621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LikeFBNavScrollAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barry.LikeFBNavScrollAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA1535461C2CE90600828621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LikeFBNavScrollAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barry.LikeFBNavScrollAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA1535481C2CE90600828621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LikeFBNavScrollAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barry.LikeFBNavScrollAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeFBNavScrollAnimation.app/LikeFBNavScrollAnimation";
+			};
+			name = Debug;
+		};
+		DA1535491C2CE90600828621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LikeFBNavScrollAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barry.LikeFBNavScrollAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeFBNavScrollAnimation.app/LikeFBNavScrollAnimation";
+			};
+			name = Release;
+		};
+		DA15354B1C2CE90600828621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LikeFBNavScrollAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barry.LikeFBNavScrollAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LikeFBNavScrollAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA15354C1C2CE90600828621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LikeFBNavScrollAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barry.LikeFBNavScrollAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LikeFBNavScrollAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1535171C2CE90600828621 /* Build configuration list for PBXProject "LikeFBNavScrollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1535421C2CE90600828621 /* Debug */,
+				DA1535431C2CE90600828621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1535441C2CE90600828621 /* Build configuration list for PBXNativeTarget "LikeFBNavScrollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1535451C2CE90600828621 /* Debug */,
+				DA1535461C2CE90600828621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA1535471C2CE90600828621 /* Build configuration list for PBXNativeTarget "LikeFBNavScrollAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1535481C2CE90600828621 /* Debug */,
+				DA1535491C2CE90600828621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA15354A1C2CE90600828621 /* Build configuration list for PBXNativeTarget "LikeFBNavScrollAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15354B1C2CE90600828621 /* Debug */,
+				DA15354C1C2CE90600828621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1535141C2CE90600828621 /* Project object */;
+}
